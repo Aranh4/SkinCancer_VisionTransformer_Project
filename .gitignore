@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+*.csv
+*.zip
+*.tar.gz
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# HAM10000 Dataset (específico)
+data/raw/HAM10000_images_part_1/
+data/raw/HAM10000_images_part_2/
+data/raw/HAM10000_metadata.csv
+data/raw/hmnist_8_8_L.csv
+data/raw/hmnist_8_8_RGB.csv
+data/raw/hmnist_28_28_L.csv
+data/raw/hmnist_28_28_RGB.csv
+
+# Models
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.pkl
+!models/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
+
+# Environment
+.env
+
