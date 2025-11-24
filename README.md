@@ -21,7 +21,7 @@ Este projeto tenta implementar diferentes métodos como Redes Neurais Convolucio
 ```
 SkinCancer_VisionTransformer_Project/
 │
-├── data/                                # Dataset Utilizado    
+├── data/                                # Dataset Utilizado
 │
 ├── SkinCancerProject.ipynb              # Jupyter Notebook do Projeto
 │
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### 2. Instalar o token do kaggle
 
-- Instale o arquivo [`kaggle.json`](https://www.kaggle.com/settings) na raiz do projeto.
+- Instale o arquivo [`kaggle.json`](https://www.kaggle.com/settings). Para baixá-lo, acesse o link e role até a parte de Legacy API Credentials, onde você encontrará o botão "Create Legacy API Key". Basta fazer o download do arquivo e colocá-lo na raiz do projeto.
 
 ```json
 {
@@ -50,7 +50,3 @@ pip install -r requirements.txt
   "key": "123456789"
 }
 ```
-
-
-
-
