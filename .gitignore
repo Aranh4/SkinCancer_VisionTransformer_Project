@@ -29,29 +29,12 @@ wheels/
 *.ipynb_checkpoints/
 
 # Data
-data/raw/*
-data/processed/*
-*.csv
-*.zip
-*.tar.gz
+data/*
 !data/.gitkeep
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
-# HAM10000 Dataset (específico)
-data/raw/HAM10000_images_part_1/
-data/raw/HAM10000_images_part_2/
-data/raw/HAM10000_metadata.csv
-data/raw/hmnist_8_8_L.csv
-data/raw/hmnist_8_8_RGB.csv
-data/raw/hmnist_28_28_L.csv
-data/raw/hmnist_28_28_RGB.csv
 
 # Models
-models/*.pth
-models/*.pt
-models/*.h5
-models/*.pkl
+models/*
 !models/.gitkeep
 
 # Results
@@ -64,7 +47,7 @@ results/*
 *.swp
 *.swo
 *~
-
+.jpg
 # OS
 .DS_Store
 Thumbs.db
@@ -74,7 +57,4 @@ kaggle.json
 
 # Environment
 .env
-
-step-wise-approach-cnn-model-77-0344-accuracy.ipynb
-
-venv311/
+env/*
