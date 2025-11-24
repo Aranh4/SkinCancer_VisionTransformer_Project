@@ -58,3 +58,4 @@ kaggle.json
 # Environment
 .env
 env/*
+venv311
