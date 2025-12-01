@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ## Vídeo de Demonstração
 
-[![Assista ao vídeo](https://img.youtube.com/vi/MsQk4IoO9sc/maxresdefault.jpg)](https://youtu.be/MsQk4IoO9sc)
+[![Video](https://img.youtube.com/vi/MsQk4IoO9sc/maxresdefault.jpg)](https://youtu.be/MsQk4IoO9sc)
 
 
 
