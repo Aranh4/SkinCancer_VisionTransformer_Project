@@ -2,11 +2,11 @@
 
 Projeto de Machine Learning para classificação de lesões de pele usando o dataset HAM10000.
 
-## 📋 Descrição
+## Descrição
 
 Este projeto tenta implementar diferentes métodos como Redes Neurais Convolucionais (CNNs) e Vision Transformers para classificar diferentes tipos de lesões de pele, auxiliando no diagnóstico precoce de câncer de pele. O dataset HAM10000 contém 10.015 imagens dermatoscópicas de 7 classes diferentes de lesões.
 
-## 🎯 Classes do Dataset
+## Classes do Dataset
 
 1. **Melanoma (mel)** - Melanoma maligno
 2. **Melanocytic nevi (nv)** - Nevos melanocíticos benignos
@@ -16,7 +16,7 @@ Este projeto tenta implementar diferentes métodos como Redes Neurais Convolucio
 6. **Dermatofibroma (df)** - Dermatofibroma
 7. **Vascular lesions (vasc)** - Lesões vasculares
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 SkinCancer_VisionTransformer_Project/
@@ -30,9 +30,11 @@ SkinCancer_VisionTransformer_Project/
 ├── requirements.txt                     # Dependências Python
 │
 └── README.md                            # Este arquivo
+│
+└── Relatório Projeto ML                 # Relatório Projeto
 ```
 
-## 🚀 Setup
+## Setup
 
 ### 1. Instalar dependências
 
@@ -50,3 +52,10 @@ pip install -r requirements.txt
   "key": "123456789"
 }
 ```
+
+## Vídeo de Demonstração
+
+[![Assista ao vídeo](https://img.youtube.com/vi/MsQk4IoO9sc/maxresdefault.jpg)](https://youtu.be/MsQk4IoO9sc)
+
+
+
